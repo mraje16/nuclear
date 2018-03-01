@@ -42,7 +42,7 @@
 \newcommand{\subd}{\text{d}}
 
 \DeclareMathOperator{\rank}{rank}
-
+ 
 \graphicspath{ {am205_mts_files/}}
 
 % Make LaTeX more willing to intermix figures and text
@@ -59,17 +59,40 @@
 \maketitle{}
 
 \section{Problem Definition}
+This project aims to develop a library to solve the 
 
 \section{Terms}
-Type Ia supernovae (SNeIa)
+	\begin{itemize}
+		\item $\lambda$ is the thermally averaged cross-section or rate of occurrence per particle per unit time - seems like fixed values.
+		\item Type Ia supernovae (SNeIa)
+	\end{itemize}
 
-\section{Inputs to the Proposed System}
-
-\section{Output from the Proposed System}
+\section{Features of Proposed System}
+	\begin{itemize}
+		\item System takes in temperature and density values; initial C/O ratio given by nuclide mass fractions $X(^{12}C) = 0.3$ and $X(^{16}O) = 0.7$ but reasonable variations allowed.
+		\item Find values of $\lambda$
+		\item Equilibrium mol fractions of trace nuclei can be calculated directly using Eq (13) in paper.
+		\item Time scales can be calculated using equilibrium values. Alternatively, reverse calculation/missing values can be found using timescale information from given Table 1.
+		\item System of equations can be solved to determine when equilibrium occurs, produce decay graphs.
+	\end{itemize}	
+	
+	Stretch goals:	
+	\begin{itemize}
+		\item Find different behaviour for different concentration 
+	\end{itemize}
 
 \section{General Notes}
 	\begin{itemize}
-		\item 2 simplified NNs used in burning reactions in white dwarf interiors
+		\item Phases of evolution in the pre-explosion phase
+			\begin{itemize}
+				\item Cooling phase - cooling to constant density after birth
+				\item Accretion phase
+				\item Simmering phase
+				\item Thermonuclear flash
+				\item Thermonuclear runway
+			\end{itemize}
+		\item N1 traces the decay of major elements to generate $^{13}C$ from $^{12}C$.
+		\item N2 includes the effects of leak reactions that occur at different densities due to different rates of production of reacting species. This produces properties of full network at 5\% level, i.e. its time evolution reflects the time evolution of the full network.
 	\end{itemize}
 
 \end{document}
