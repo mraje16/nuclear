@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.21)  1 MAR 2018 12:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.21)  1 MAR 2018 13:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -550,29 +550,29 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 8.33606pt on input line 66.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 66.
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 88.
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 91.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
  (./notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
 Package rerunfilecheck Info: File `notes.out' has not changed.
 (rerunfilecheck)             Checksum: F142ED95C1C92D7E63273F6A1A4A3DFD;211.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 9033 strings out of 492995
- 141176 string characters out of 6132704
+ 9034 strings out of 492995
+ 141185 string characters out of 6132704
  253931 words of memory out of 5000000
  12438 multiletter control sequences out of 15000+600000
- 26513 words of font info for 88 fonts, out of 8000000 for 9000
+ 26591 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,6n,38p,308b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,6n,38p,308b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): Page 3 has been referenced but does not exist!
 
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
@@ -581,7 +581,7 @@ ve/2017/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2
 017/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/tex
 mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist
 /fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on notes.pdf (2 pages, 58215 bytes).
+Output written on notes.pdf (2 pages, 58608 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream

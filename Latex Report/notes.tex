@@ -59,26 +59,29 @@
 \maketitle{}
 
 \section{Problem Definition}
-This project aims to develop a library to solve the 
+This project aims to develop a library to model and solve the set of nuclear reactions that occur in white dwarf interiors approaching ignition in SNeIa.
 
 \section{Terms}
 	\begin{itemize}
 		\item $\lambda$ is the thermally averaged cross-section or rate of occurrence per particle per unit time - seems like fixed values.
-		\item Type Ia supernovae (SNeIa)
+		\item Type Ia supernovae (SNeIa) - thermonuclear explosion of white dwarf stars
+		\item White dwarf stars - Stars composed of electron-degenerate matter; said to be the final stage of some stars.
 	\end{itemize}
 
 \section{Features of Proposed System}
 	\begin{itemize}
 		\item System takes in temperature and density values; initial C/O ratio given by nuclide mass fractions $X(^{12}C) = 0.3$ and $X(^{16}O) = 0.7$ but reasonable variations allowed.
-		\item Find values of $\lambda$
+		\item Find values of $\lambda$ 
+		\item Find rates of different reactions at equilibrium
 		\item Equilibrium mol fractions of trace nuclei can be calculated directly using Eq (13) in paper.
 		\item Time scales can be calculated using equilibrium values. Alternatively, reverse calculation/missing values can be found using timescale information from given Table 1.
 		\item System of equations can be solved to determine when equilibrium occurs, produce decay graphs.
+		\item All values can be found in terms of the $^{12}C$ mol fractions.
 	\end{itemize}	
 	
 	Stretch goals:	
 	\begin{itemize}
-		\item Find different behaviour for different concentration 
+		\item Find different behaviour for different concentration - is similar for reasonable changes to proposed ratio, but we might have to read more literature to do this.
 	\end{itemize}
 
 \section{General Notes}
